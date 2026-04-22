@@ -1,11 +1,35 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+body{
+  font-family:Arial;
+  padding:20px;
 }
 
-body{
-  font-family:Arial, sans-serif;
+.container{
+  max-width:1000px;
+  margin:auto;
+}
+
+.products{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.card{
+  border:1px solid #ddd;
+  padding:20px;
+  width:200px;
+}
+
+button{
+  padding:8px 12px;
+  margin-top:10px;
+  cursor:pointer;
+}
+
+.cart{
+  margin-top:40px;
+  padding:20px;
+  border:1px solid #000;
 }
 
 header{
@@ -50,3 +74,5 @@ footer{
   text-align:center;
   padding:15px;
 }
+
+
